@@ -10,8 +10,7 @@ import { GoogleGeminiEffectBackground } from "@/components/background";
 
 export default function Home() {
   return (
-    <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
-      fuck you
+    <section className="flex flex-col items-center justify-center gap-4  ">
       <GoogleGeminiEffectBackground/>
     </section>
   );
