@@ -7,11 +7,12 @@ import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
 import { GithubIcon } from "@/components/icons";
 import { GoogleGeminiEffectBackground } from "@/components/background";
+import { CarsonCard } from "@/components/carsoncard";
 
 export default function Home() {
   return (
     <section className="flex flex-col items-center justify-center gap-4  ">
-      <GoogleGeminiEffectBackground/>
+      <CarsonCard/>
     </section>
   );
 }

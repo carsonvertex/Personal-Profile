@@ -5,13 +5,13 @@ import { FloatingNav } from "./ui/floating-navbar";
 export function FloatingNavbar() {
   const navItems = [
     {
-      name: "Home",
+      name: "About Me",
       link: "/",
       icon: <IconHome className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
     {
-      name: "About",
-      link: "/about",
+      name: "Projects",
+      link: "/projects",
       icon: <IconUser className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
     {

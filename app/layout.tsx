@@ -39,18 +39,20 @@ export default function RootLayout({
       <body
         className={clsx(
           "min-h-screen bg-background font-sans antialiased",
-          fontSans.variable,
+          fontSans.variable
         )}
       >
         <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
           <div className="relative flex flex-col h-screen">
-            <FloatingNavbar />
-            <main className="">
-              {children}
+            <GoogleGeminiEffectBackground />
 
-            </main>
+            <div>
+              <FloatingNavbar />
+            </div>
+
+            <main className="h-screen mt-20 py-5 container">{children}</main>
             <footer className="w-full flex items-center justify-center py-3">
-             Footer in layout
+              Footer in layout
             </footer>
           </div>
         </Providers>
