@@ -1,10 +1,10 @@
 import { title } from "@/components/primitives";
-import { Skills } from "@/components/skills";
+import { Projects } from "@/components/projects";
 
 export default function ProjectsPage() {
   return (
     <div>
-      <Skills/>
+      <Projects/>
     </div>
   );
 }

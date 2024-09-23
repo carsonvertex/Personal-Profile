@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { Tabs } from "./ui/tabs";
 
-export function Skills() {
+export function Projects() {
   const tabs = [
     {
       title: "Programming Skills",
