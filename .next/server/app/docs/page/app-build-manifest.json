@@ -1,0 +1,28 @@
+{
+  "pages": {
+    "/docs/page": [
+      "static/chunks/[root of the server]__e2ab11._.css",
+      "static/chunks/be63a_tailwind-merge_dist_lib_3e1c27._.js",
+      "static/chunks/node_modules__pnpm_1b3d35._.js",
+      "static/chunks/node_modules__pnpm_832a99._.js",
+      "static/chunks/ae632_next_b2e2bd._.js",
+      "static/chunks/cf350_framer-motion_dist_es_0af4bf._.js",
+      "static/chunks/4e101_@nextui-org_navbar_dist_ec6cac._.js",
+      "static/chunks/node_modules__pnpm_97e4f3._.js",
+      "static/chunks/_9b5d1d._.js",
+      "static/chunks/app_layout_tsx_ad259e._.js",
+      "static/chunks/app_error_tsx_6c72c3._.js",
+      "static/chunks/app_error_tsx_e5220d._.js",
+      "static/chunks/ae632_next_dist_compiled_react_8f3465._.js",
+      "static/chunks/ae632_next_dist_compiled_react-dom_cjs_react-dom_development_237775.js",
+      "static/chunks/ae632_next_dist_compiled_react-dom_ccaa85._.js",
+      "static/chunks/ae632_next_dist_compiled_2de704._.js",
+      "static/chunks/ae632_next_dist_client_f22acc._.js",
+      "static/chunks/ae632_next_dist_ffded1._.js",
+      "static/chunks/90481_@swc_helpers_cjs_e55b81._.js",
+      "static/chunks/[turbopack]_dev_client_hmr-client_ts_7ffffa._.js",
+      "static/chunks/ae632_next_dist_esm_build_templates_app-page_5ddca8.js",
+      "static/chunks/ae632_next_dist_esm_build_templates_app-page_791494.js"
+    ]
+  }
+}
