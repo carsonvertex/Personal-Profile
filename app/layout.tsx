@@ -8,7 +8,7 @@ import { Providers } from "./providers";
 import { siteConfig } from "@/config/site";
 import { fontSans } from "@/config/fonts";
 import { FloatingNavbar } from "@/components/navbar";
-import { GoogleGeminiEffectBackground } from "@/components/background";
+import { GoogleGeminiEffectBackground } from "@/components/googleGeminiEffectBackground";
 
 export const metadata: Metadata = {
   title: {
@@ -42,11 +42,13 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
+
         <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
-          <div className="relative flex flex-col h-screen">
-            <GoogleGeminiEffectBackground />
+          <div className="relative flex flex-col h-screen w-screen">
 
             <div>
+            <GoogleGeminiEffectBackground />
+
               <FloatingNavbar />
             </div>
 
