@@ -51,9 +51,9 @@ export default function RootLayout({
             </div>
 
             <main className="h-screen mt-20 py-5 container">{children}</main>
-            <footer className="w-full flex items-center justify-center py-3">
+            {/* <footer className="w-full flex items-center justify-center py-3">
               Footer in layout
-            </footer>
+            </footer> */}
           </div>
         </Providers>
       </body>
