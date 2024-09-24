@@ -655,6 +655,10 @@ body {
   margin-top: 1rem;
 }
 
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
 .block {
   display: block;
 }
@@ -2490,6 +2494,10 @@ body {
 
   .md\:h-6 {
     height: 1.5rem;
+  }
+
+  .md\:h-\[60rem\] {
+    height: 60rem;
   }
 
   .md\:max-h-\[90\%\] {
