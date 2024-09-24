@@ -1,4 +1,4 @@
-export default function ProjectsLayout({
+export default function FaceRecognitionLayout({
   children,
 }: {
   children: React.ReactNode;

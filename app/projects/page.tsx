@@ -1,12 +1,17 @@
 import { ClinicApp } from "@/components/clinicapp";
 import { title } from "@/components/primitives";
 import { Projects } from "@/components/projects";
+import Image from 'next/image';
 
-export default function ProjectsPage() {
+export default function OnlineShopPage() {
   return (
     <div>
       {/* <Projects/> */}
-      <ClinicApp/>
+      {/* <ClinicApp/> */}
+      Projects Page
+                <Image src="/images/projects/clinic2.png" width="500" height="500" alt="nigga"/>
+
+      
     </div>
   );
 }

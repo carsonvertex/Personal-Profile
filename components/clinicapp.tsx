@@ -22,9 +22,9 @@ export function ClinicApp() {
           </p>
         </div>
         <div>
-          <img className="w-full mb-2" src="images\projects\clinic1.png" />
-          <img className="w-full" src="images\projects\clinic2.png" />
-          
+          <img className="w-full mb-2" src="/images/projects/clinic1.png" />
+          <img className="w-full" src="/images/projects/clinic2.png" />
+          {/* <Image src="/images/projects/clinic2.png" alt="clinic" width={100} height="100"/>  */}
         </div>
       </WobbleCard>
       <WobbleCard containerClassName="col-span-1 min-h-[300px]">
@@ -32,12 +32,14 @@ export function ClinicApp() {
           Internal System for Clinic
         </h2>
         <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
-          Record information of patients to create account, record the diagnosis history and the medicines needed to take.<br/>
+          Record information of patients to create account, record the diagnosis
+          history and the medicines needed to take.
+          <br />
           Adding information of the medicine inventory for the clinic
         </p>
-        <img className="w-full mb-2" src="images\projects\clinic3.png" />
-        <img className="w-full mb-2" src="images\projects\clinic4.png" />
-        <img className="w-full mb-2" src="images\projects\clinic5.png" />
+        <img className="w-full mb-2" src="/images/projects/clinic3.png" />
+        <img className="w-full mb-2" src="/images/projects/clinic4.png" />
+        <img className="w-full mb-2" src="/images/projects/clinic5.png" />
       </WobbleCard>
       <WobbleCard containerClassName="col-span-1 lg:col-span-3 bg-blue-900 min-h-[500px] lg:min-h-[600px] xl:min-h-[300px]">
         <div className="max-w-full">
@@ -54,28 +56,29 @@ export function ClinicApp() {
           <div className="grid grid-cols-3 w-full gap-4 ">
             <img
               className=" col-span-3 md:col-span-1 rounded-2xl"
-              src="images\projects\clinic6.png"
+              src="/images/projects/clinic6.png"
             />
             <img
               className=" col-span-3 md:col-span-1 rounded-2xl"
-              src="images\projects\clinic7.png"
-            />
+              src="/images/projects/clinic7.png"
+            />{" "}
             <img
               className=" col-span-3 md:col-span-1 rounded-2xl"
-              src="images\projects\clinic8.png"
-            />
+              src="/images/projects/clinic8.png"
+            />{" "}
             <img
               className=" col-span-3 md:col-span-1 rounded-2xl"
-              src="images\projects\clinic9.png"
-            />
+              src="/images/projects/clinic9.png"
+            />{" "}
             <img
               className=" col-span-3 md:col-span-1 rounded-2xl"
-              src="images\projects\clinic10.png"
-            />
+              src="/images/projects/clinic10.png"
+            />{" "}
             <img
               className=" col-span-3 md:col-span-1 rounded-2xl"
-              src="images\projects\clinic11.png"
-            />
+              src="/images/projects/clinic11.png"
+            />{" "}
+           
           </div>
         </div>
         {/* <ClinicSystemDemos/> */}
