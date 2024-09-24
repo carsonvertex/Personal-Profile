@@ -1050,6 +1050,14 @@ body {
   width: 100vw;
 }
 
+.w-\[40rem\] {
+  width: 40rem;
+}
+
+.w-\[8px\] {
+  width: 8px;
+}
+
 .min-w-full {
   min-width: 100%;
 }
@@ -1485,6 +1493,10 @@ body {
   border-color: #ffffff1a;
 }
 
+.border-white\/\[0\.08\] {
+  border-color: #ffffff14;
+}
+
 .bg-\[\#222222\] {
   --tw-bg-opacity: 1;
   background-color: rgb(34 34 34 / var(--tw-bg-opacity));
@@ -1640,6 +1652,21 @@ body {
   background-color: rgb(2 132 199 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#1d1c20\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(29 28 32 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#323238\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(50 50 56 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#0E0E10\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(14 14 16 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-90 {
   --tw-bg-opacity: .9;
 }
@@ -1787,6 +1814,11 @@ body {
   --tw-gradient-stops: var(--tw-gradient-from), #fff var(--tw-gradient-via-position), var(--tw-gradient-to);
 }
 
+.via-neutral-800 {
+  --tw-gradient-to: #26262600 var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), #262626 var(--tw-gradient-via-position), var(--tw-gradient-to);
+}
+
 .via-\[10\%\] {
   --tw-gradient-via-position: 10%;
 }
@@ -1837,6 +1869,10 @@ body {
 
 .to-zinc-300\/30 {
   --tw-gradient-to: #d4d4d84d var(--tw-gradient-to-position);
+}
+
+.to-neutral-300 {
+  --tw-gradient-to: #d4d4d4 var(--tw-gradient-to-position);
 }
 
 .to-\[84\%\] {
@@ -2270,6 +2306,11 @@ body {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-\[\#a9a9a9\] {
+  --tw-text-opacity: 1;
+  color: rgb(169 169 169 / var(--tw-text-opacity));
+}
+
 .antialiased {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -2568,6 +2609,11 @@ body {
 
 .\[grid-area\:1\/1\] {
   grid-area: 1 / 1;
+}
+
+.\[mask-image\:linear-gradient\(to_bottom\,transparent\,white\,transparent\)\] {
+  -webkit-mask-image: linear-gradient(#0000, #fff, #0000);
+  mask-image: linear-gradient(#0000, #fff, #0000);
 }
 
 .\[mask-image\:linear-gradient\(to_bottom\,transparent_0\%\,black_10\%\,black_90\%\,transparent_100\%\)\] {
@@ -3174,6 +3220,10 @@ body {
   .sm\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .sm\:text-\[3rem\] {
+    font-size: 3rem;
   }
 }
 

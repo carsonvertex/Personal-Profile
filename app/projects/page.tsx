@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/image";
 
 export default function OnlineShopPage() {
   return (
@@ -6,9 +6,7 @@ export default function OnlineShopPage() {
       {/* <Projects/> */}
       {/* <ClinicApp/> */}
       Projects Page
-                <Image src="/images/projects/clinic2.png" width="500" height="500" alt="nigga"/>
-
-      
+      {/* <Image src="/images/projects/clinic2.png" width="500" height="500" alt="nigga"/> */}
     </div>
   );
 }

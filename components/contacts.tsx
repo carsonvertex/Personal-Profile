@@ -3,11 +3,27 @@ import React from "react";
 
 import { AnimatePresence, motion } from "framer-motion";
 import { CanvasRevealEffect } from "@/components/ui/canvas-reveal-effect";
-import { IconBrandInstagram, IconMail, IconPhoneCall } from "@tabler/icons-react";
+import {
+  IconBrandInstagram,
+  IconMail,
+  IconPhoneCall,
+} from "@tabler/icons-react";
+import {
+  TextRevealCard,
+  TextRevealCardTitle,
+  TextRevealCardDescription,
+} from "./ui/text-reveal-card";
 
 export function ContactCards() {
   return (
     <>
+      <div className="flex items-center justify-center   rounded-2xl w-full">
+        <TextRevealCard
+          text="  My Contact Information"
+          revealText="Thank You Very Much "
+        ></TextRevealCard>
+      </div>
+
       <div className="py-20 flex flex-col lg:flex-row items-center justify-center  w-screen gap-4 mx-auto px-8">
         <Card title="+852-54091997" icon={<IconPhoneCall />}>
           <CanvasRevealEffect
