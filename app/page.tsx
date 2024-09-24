@@ -7,7 +7,6 @@ import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
 import { GithubIcon } from "@/components/icons";
 import { CarsonCard } from "@/components/carsoncard";
-import { Skills } from "@/components/skills";
 import { WorkExperience } from "@/components/work-experience";
 import { Education } from "@/components/education";
 

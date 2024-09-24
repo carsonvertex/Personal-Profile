@@ -18,7 +18,7 @@ export function GoogleGeminiEffectBackground() {
 
   return (
     <div
-      className="h-[550vh] bg-black w-screen dark:border dark:border-white/[0.1] rounded-md absolute pt-0 overflow-clip z-[-1]"
+      className="h-[600vh] bg-black w-screen dark:border dark:border-white/[0.1] rounded-md absolute pt-0 overflow-clip z-[-1]"
       ref={ref}
     >
       <GoogleGeminiEffect

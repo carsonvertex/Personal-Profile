@@ -767,6 +767,10 @@ body {
   height: 40rem;
 }
 
+.h-\[600vh\] {
+  height: 600vh;
+}
+
 .min-h-\[300px\] {
   min-height: 300px;
 }

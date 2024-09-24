@@ -24,7 +24,7 @@ export function Education() {
                                 </span>
                             </div>
                             <div className="flex items-center content-center h-full">
-                                <img className="flex w-full rounded-lg my-4 overflow-hidden" src="images/tecky.png" />
+                                <img className="flex w-full rounded-lg my-4 overflow-hidden" src="images/organizations/tecky.png" />
                             </div>
                         </div>
                     </PinContainer>
@@ -45,7 +45,7 @@ export function Education() {
                                 </span>
                             </div>
                             <div className="flex items-center content-center h-full">
-                                <img className="flex w-full rounded-lg my-4 overflow-hidden" src="images/hku.png" />
+                                <img className="flex w-full rounded-lg my-4 overflow-hidden" src="images/organizations/hku.png" />
                             </div>
                         </div>
                     </PinContainer>
@@ -66,7 +66,7 @@ export function Education() {
                                 </span>
                             </div>
                             <div className="flex items-center content-center h-full">
-                                <img className="flex w-full rounded-lg my-4 overflow-hidden" src="images/cityu.png" />
+                                <img className="flex w-full rounded-lg my-4 overflow-hidden" src="images/organizations/cityu.png" />
                             </div>
                         </div>
                     </PinContainer>

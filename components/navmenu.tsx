@@ -29,23 +29,35 @@ function Navbar({ className }: { className?: string }) {
           <span className="block sm:hidden">About Me</span>
           <span className="hidden sm:block text-sm">About Me</span>
         </Link>
+
+        <Link
+          href={"/skills"}
+          className={cn(
+            "relative dark:text-neutral-50 items-center flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500"
+          )}
+        >
+          <span className="block sm:hidden">Skills</span>
+          <span className="hidden sm:block text-sm">Skills</span>
+        </Link>
        
         <MenuItem setActive={setActive} active={active} item="Projects">
           <div className="flex flex-col space-y-4 text-sm">
             <HoveredLink href="/projects/clinicapp">Clinic Care App</HoveredLink>
             <HoveredLink href="/projects/facerecognition">Face Recognition Chatroom</HoveredLink>
-            <HoveredLink href="/projects/onlineshop">Online Shop</HoveredLink>
+            {/* <HoveredLink href="/projects/onlineshop">Online Shop</HoveredLink> */}
           </div>
         </MenuItem>
 
-        <MenuItem setActive={setActive} active={active} item="Pricing">
-          <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/hobby">Hobby</HoveredLink>
-            <HoveredLink href="/individual">Individual</HoveredLink>
-            <HoveredLink href="/team">Team</HoveredLink>
-            <HoveredLink href="/enterprise">Enterprise</HoveredLink>
-          </div>
-        </MenuItem>
+        <Link
+          href={"/skills"}
+          className={cn(
+            "relative dark:text-neutral-50 items-center flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500"
+          )}
+        >
+          <span className="block sm:hidden">Contact Me</span>
+          <span className="hidden sm:block text-sm">Contact Me</span>
+        </Link>
+        
       </Menu>
     </div>
   );
