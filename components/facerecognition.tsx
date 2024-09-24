@@ -2,10 +2,58 @@
 import React from "react";
 import Image from "next/image";
 import { ContainerScroll } from "./ui/container-scroll-animation";
+import { TypewriterEffectSmooth } from "./ui/typewriter-effect";
 
 export function FaceRecognition() {
+  const words = [
+    {
+      text: "Profile",
+    },
+    {
+      text: "Verified",
+    },
+    {
+      text: "Chatroom",
+    },
+
+    {
+      text: "Powered",
+      className: "text-blue-500 dark:text-blue-500",
+    },
+    {
+      text: "by",
+      className: "text-blue-500 dark:text-blue-500",
+    },
+    {
+      text: "AI",
+      className: "text-blue-500 dark:text-blue-500",
+    },
+    {
+      text: "Face",
+      className: "text-blue-500 dark:text-blue-500",
+    },
+    {
+      text: "Recognition",
+      className: "text-blue-500 dark:text-blue-500",
+    },
+  ];
   return (
     <>
+      <div className="flex flex-col items-center justify-center h-[40rem]  ">
+        <TypewriterEffectSmooth words={words} />
+
+        <p className="text-neutral-600 dark:text-neutral-200 text-xs sm:text-base  ">
+          • Developed a profile verification system using advanced facial
+          recognition technology.
+          <br />
+          • Implemented deep learning algorithms to accurately identify and
+          verify user profiles based on facial features. <br />
+          • Ensured a secure and streamlined user authentication process for
+          various applications. <br />
+        </p>
+      </div>
+
+      {/* demo */}
       <div className="flex flex-col overflow-hidden">
         <ContainerScroll
           titleComponent={
@@ -76,7 +124,7 @@ export function FaceRecognition() {
           />
         </ContainerScroll>
       </div>
-      
+
       <div className="flex flex-col overflow-auto">
         <ContainerScroll
           titleComponent={
