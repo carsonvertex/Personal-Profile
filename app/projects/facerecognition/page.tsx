@@ -1,13 +1,10 @@
-import { ClinicApp } from "@/components/clinicapp";
-import { title } from "@/components/primitives";
-import { Projects } from "@/components/projects";
+import { FaceRecognition } from "@/components/facerecognition";
 import Image from 'next/image'
 
 export default function FaceRecognitionPage() {
   return (
     <div>
-      {/* <Projects/> */}
-      {/* <ClinicApp/> */}
+      <FaceRecognition/>
     </div>
   );
 }

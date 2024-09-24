@@ -598,6 +598,10 @@ body {
   margin-right: -1rem;
 }
 
+.-mt-12 {
+  margin-top: -3rem;
+}
+
 .-mt-2 {
   margin-top: -.5rem;
 }
@@ -624,6 +628,10 @@ body {
 
 .ml-\[0\.09375rem\] {
   margin-left: .09375rem;
+}
+
+.mt-1 {
+  margin-top: .25rem;
 }
 
 .mt-10 {
@@ -724,6 +732,10 @@ body {
 
 .h-\[550vh\] {
   height: 550vh;
+}
+
+.h-\[60rem\] {
+  height: 60rem;
 }
 
 .h-auto {
@@ -956,6 +968,10 @@ body {
   cursor: pointer;
 }
 
+.resize {
+  resize: both;
+}
+
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -1084,6 +1100,10 @@ body {
   border-radius: 1.5rem;
 }
 
+.rounded-\[30px\] {
+  border-radius: 30px;
+}
+
 .rounded-\[50\%\] {
   border-radius: 50%;
 }
@@ -1120,8 +1140,17 @@ body {
   border-width: 1px;
 }
 
+.border-4 {
+  border-width: 4px;
+}
+
 .border-b {
   border-bottom-width: 1px;
+}
+
+.border-\[\#6C6C6C\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(108 108 108 / var(--tw-border-opacity));
 }
 
 .border-black\/\[0\.1\] {
@@ -1153,6 +1182,11 @@ body {
 
 .border-white\/\[0\.1\] {
   border-color: #ffffff1a;
+}
+
+.bg-\[\#222222\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 34 34 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#F5F5F7\] {
@@ -1710,6 +1744,10 @@ body {
   line-height: 2.25rem;
 }
 
+.leading-none {
+  line-height: 1;
+}
+
 .tracking-\[-0\.015em\] {
   letter-spacing: -.015em;
 }
@@ -2133,6 +2171,11 @@ body {
   background-color: rgb(39 39 42 / var(--tw-bg-opacity));
 }
 
+.dark\:bg-zinc-900:is(.dark *) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(24 24 27 / var(--tw-bg-opacity));
+}
+
 .dark\:bg-opacity-20:is(.dark *) {
   --tw-bg-opacity: .2;
 }
@@ -2374,9 +2417,17 @@ body {
     height: 40rem;
   }
 
+  .md\:h-\[80rem\] {
+    height: 80rem;
+  }
+
   .md\:h-fit {
     height: -moz-fit-content;
     height: fit-content;
+  }
+
+  .md\:h-full {
+    height: 100%;
   }
 
   .md\:max-h-\[90\%\] {
@@ -2423,8 +2474,24 @@ body {
     gap: .5rem;
   }
 
+  .md\:rounded-2xl {
+    border-radius: 1rem;
+  }
+
   .md\:p-14 {
     padding: 3.5rem;
+  }
+
+  .md\:p-20 {
+    padding: 5rem;
+  }
+
+  .md\:p-4 {
+    padding: 1rem;
+  }
+
+  .md\:p-6 {
+    padding: 1.5rem;
   }
 
   .md\:px-10 {
@@ -2440,6 +2507,11 @@ body {
   .md\:py-10 {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
+  }
+
+  .md\:py-40 {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
   }
 
   .md\:pl-20 {
@@ -2471,6 +2543,10 @@ body {
   .md\:text-5xl {
     font-size: 3rem;
     line-height: 1;
+  }
+
+  .md\:text-\[6rem\] {
+    font-size: 6rem;
   }
 
   .md\:text-base {
