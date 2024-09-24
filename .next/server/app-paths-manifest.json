@@ -1,5 +1,7 @@
 {
-  "/projects/page": "app/projects/page.js",
   "/page": "app/page.js",
-  "/_not-found/page": "app/_not-found/page.js"
+  "/projects/clinicapp/page": "app/projects/clinicapp/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/projects/facerecognition/page": "app/projects/facerecognition/page.js",
+  "/projects/onlineshop/page": "app/projects/onlineshop/page.js"
 }

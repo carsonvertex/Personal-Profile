@@ -9,6 +9,7 @@ import { siteConfig } from "@/config/site";
 import { fontSans } from "@/config/fonts";
 import { FloatingNavbar } from "@/components/navbar";
 import { GoogleGeminiEffectBackground } from "@/components/googleGeminiEffectBackground";
+import { NavMenu } from "@/components/navmenu";
 
 export const metadata: Metadata = {
   title: {
@@ -49,7 +50,8 @@ export default function RootLayout({
             <div>
             <GoogleGeminiEffectBackground />
 
-              <FloatingNavbar />
+              {/* <FloatingNavbar /> */}
+              <NavMenu/>
             </div>
 
             <main className="h-screen mt-20 py-5 container">{children}</main>
