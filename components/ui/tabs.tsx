@@ -102,7 +102,9 @@ export const FadeInDiv = ({
     return tab.value === tabs[0].value;
   };
   return (
-    <div className="relative w-full h-full">
+    // <div className="relative w-screen h-full flex items-center justify center">
+    <div className="flex flex-row items-center justify-center [perspective:1000px] relative overflow-auto sm:overflow-visible no-visible-scrollbar max-w-screen w-screen h-screen ">
+
       {tabs.map((tab, idx) => (
         <motion.div
           key={tab.value}

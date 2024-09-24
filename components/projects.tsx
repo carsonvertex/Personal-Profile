@@ -2,26 +2,35 @@
 
 import Image from "next/image";
 import { Tabs } from "./ui/tabs";
+import { ClinicApp } from "./clinicapp";
 
 export function Projects() {
   const tabs = [
     {
-      title: "Programming Skills",
-      value: "programming",
+      title: "Clinic Care Application",
+      value: "clinic",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gray-900 ">
-          <p>Programming</p>
-          <ProgrammingSkills />
+        <div className="w-full  relative  rounded-2xl p-10 text-md md:text-md font-bold text-white bg-gray-900 ">
+          <p>Clinic Care Application</p>
+          <ClinicApp/>
         </div>
       ),
     },
     {
-      title: "Design Software Skills",
-      value: "design",
+      title: "Face Recognition Chatroom",
+      value: "facerecognition",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gray-900 ">
-          <p>Design Software</p>
-          <DesignSkills />
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-md md:text-md font-bold text-white bg-gray-900 ">
+          <p>Face Recognition Chatroom</p>
+        </div>
+      ),
+    },
+    {
+      title: "E-Commerece Online Shop",
+      value: "onlineshop",
+      content: (
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-md md:text-md font-bold text-white bg-gray-900 ">
+          <p>E-Commerece Online Shop</p>
         </div>
       ),
     },
@@ -33,11 +42,3 @@ export function Projects() {
     </div>
   );
 }
-
-const ProgrammingSkills = () => {
-  return <p>hi</p>;
-};
-
-const DesignSkills = () => {
-  return <p>hi</p>;
-};
