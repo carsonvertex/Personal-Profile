@@ -20,7 +20,7 @@ export default function SkillsLayout({
         className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
       >
         <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
-          <div className="inline-block max-w-lg text-center justify-center">
+          <div className="mt-72 text-center justify-center">
             {children}
           </div>
         </section>
