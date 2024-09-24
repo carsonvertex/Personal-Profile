@@ -1,5 +1,5 @@
 import { title } from "@/components/primitives";
-import { ProgrammingSkills } from "@/components/skills-programming";
+import { ProgrammingSkills } from "@/components/expandcard";
 
 export default function SkillsPage() {
   return (
