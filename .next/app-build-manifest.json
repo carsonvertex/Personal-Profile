@@ -35,6 +35,8 @@
       "static/chunks/app_layout_tsx_3955d6._.js",
       "static/chunks/app_error_tsx_6c72c3._.js",
       "static/chunks/app_error_tsx_e5220d._.js",
+      "static/chunks/app_projects_facerecognition_layout_tsx_9d3e52._.js",
+      "static/chunks/app_projects_facerecognition_layout_tsx_29e525._.js",
       "static/chunks/cf350_framer-motion_dist_es_c99485._.js",
       "static/chunks/_445e2e._.js",
       "static/chunks/app_projects_facerecognition_page_tsx_19703e._.js",
@@ -116,6 +118,31 @@
       "static/chunks/[turbopack]_dev_client_hmr-client_ts_7ffffa._.js",
       "static/chunks/ae632_next_dist_esm_build_templates_app-page_a190d8.js",
       "static/chunks/ae632_next_dist_esm_build_templates_app-page_ec100b.js"
+    ],
+    "/contact/page": [
+      "static/chunks/[root of the server]__e2ab11._.css",
+      "static/chunks/ae632_next_d2fd61._.js",
+      "static/chunks/cf350_framer-motion_dist_es_207396._.js",
+      "static/chunks/29b32_tailwind-merge_dist_bundle-mjs_mjs_947f7b._.js",
+      "static/chunks/node_modules__pnpm_cf2ced._.js",
+      "static/chunks/_c1a236._.js",
+      "static/chunks/app_layout_tsx_3955d6._.js",
+      "static/chunks/app_error_tsx_6c72c3._.js",
+      "static/chunks/app_error_tsx_e5220d._.js",
+      "static/chunks/app_contact_layout_tsx_3d8843._.js",
+      "static/chunks/app_contact_layout_tsx_40261a._.js",
+      "static/chunks/app_contact_page_tsx_87ecb0._.js",
+      "static/chunks/app_contact_page_tsx_19a78b._.js",
+      "static/chunks/ae632_next_dist_compiled_react_8f3465._.js",
+      "static/chunks/ae632_next_dist_compiled_react-dom_cjs_react-dom_development_237775.js",
+      "static/chunks/ae632_next_dist_compiled_react-dom_ccaa85._.js",
+      "static/chunks/ae632_next_dist_compiled_2de704._.js",
+      "static/chunks/ae632_next_dist_client_f22acc._.js",
+      "static/chunks/ae632_next_dist_ffded1._.js",
+      "static/chunks/90481_@swc_helpers_cjs_e55b81._.js",
+      "static/chunks/[turbopack]_dev_client_hmr-client_ts_7ffffa._.js",
+      "static/chunks/ae632_next_dist_esm_build_templates_app-page_fd1706.js",
+      "static/chunks/ae632_next_dist_esm_build_templates_app-page_00b693.js"
     ]
   }
 }
