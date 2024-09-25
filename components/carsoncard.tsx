@@ -25,7 +25,7 @@ export function CarsonCard() {
             <div>
               <h1>Carson</h1>
               <p>Lee Lok Hin </p>
-              <p>Full-Stack Developer</p>
+              <p>Front-End Developer</p>
             </div>
           </CardItem>
 

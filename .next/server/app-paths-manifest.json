@@ -1,8 +1,8 @@
 {
+  "/page": "app/page.js",
+  "/contact/page": "app/contact/page.js",
   "/skills/page": "app/skills/page.js",
-  "/projects/facerecognition/page": "app/projects/facerecognition/page.js",
   "/projects/clinicapp/page": "app/projects/clinicapp/page.js",
   "/_not-found/page": "app/_not-found/page.js",
-  "/page": "app/page.js",
-  "/contact/page": "app/contact/page.js"
+  "/projects/facerecognition/page": "app/projects/facerecognition/page.js"
 }
