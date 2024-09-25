@@ -8,7 +8,7 @@ export function ProgrammingSkills() {
     <>
     <TextGenerateEffect words={"SKILLS"} />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-        <GlareCard className="flex flex-col items-center justify-center">
+        <GlareCard className="p-4 flex flex-col items-center justify-center">
           <p className="text-white font-bold text-4xl mt-4">
             Programming Languages
           </p>
@@ -17,7 +17,7 @@ export function ProgrammingSkills() {
           <p className="text-white text-xl mt-4">Python</p>
         </GlareCard>
 
-        <GlareCard className="flex flex-col items-center justify-center">
+        <GlareCard className="p-4 flex flex-col items-center justify-center">
           <p className="text-white font-bold text-4xl mt-4">
             Web Development Technologies
           </p>
@@ -25,7 +25,7 @@ export function ProgrammingSkills() {
           <p className="text-white text-xl mt-4">SCSS (Sass)</p>
         </GlareCard>
 
-        <GlareCard className="flex flex-col items-center justify-center">
+        <GlareCard className="p-4 flex flex-col items-center justify-center">
           <p className="text-white font-bold text-4xl mt-4">
             Frontend Development
           </p>
@@ -37,7 +37,7 @@ export function ProgrammingSkills() {
           <p className="text-white text-xl mt-4">Aceternity-UI</p>
         </GlareCard>
 
-        <GlareCard className="flex flex-col items-center justify-center">
+        <GlareCard className=" p-4 flex flex-col items-center justify-center">
           <p className="text-white font-bold text-4xl mt-4">
             Backend Technologies
           </p>
@@ -47,7 +47,7 @@ export function ProgrammingSkills() {
           </p>
         </GlareCard>
 
-        <GlareCard className="flex flex-col items-center justify-center">
+        <GlareCard className="p-4 flex flex-col items-center justify-center">
           <p className="text-white font-bold text-4xl mt-4">
             Authentication and Security
           </p>
@@ -57,7 +57,7 @@ export function ProgrammingSkills() {
           <p className="text-white text-xl mt-4">JWT (JSON Web Tokens)</p>
         </GlareCard>
 
-        <GlareCard className="flex flex-col items-center justify-center">
+        <GlareCard className="p-4 flex flex-col items-center justify-center">
           <p className="text-white font-bold text-4xl mt-4">
             Cloud Services and Infrastructure
           </p>
@@ -65,7 +65,7 @@ export function ProgrammingSkills() {
           <p className="text-white text-xl mt-4">S3 (Simple Storage Service)</p>
         </GlareCard>
 
-        <GlareCard className="flex flex-col items-center justify-center">
+        <GlareCard className="p-4 flex flex-col items-center justify-center">
           <p className="text-white font-bold text-4xl mt-4">
             Containerization and Version Control
           </p>
@@ -73,7 +73,7 @@ export function ProgrammingSkills() {
           <p className="text-white text-xl mt-4">Git</p>
         </GlareCard>
 
-        <GlareCard className="flex flex-col items-center justify-center">
+        <GlareCard className="p-4 flex flex-col items-center justify-center">
           <p className="text-white font-bold text-4xl mt-4">Design Software</p>
           <p className="text-white text-xl mt-4">Figma</p>
           <p className="text-white text-xl mt-4">Stable Diffusion</p>
