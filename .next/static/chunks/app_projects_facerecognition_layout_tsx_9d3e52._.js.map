@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 5, "column": 0}, "map": {"version":3,"sources":["/turbopack/[project]/app/projects/facerecognition/layout.tsx"],"sourcesContent":["\"use client\"\r\n\r\nimport { AuroraBackground } from \"@/components/ui/aurora-background\";\r\nimport { WavyBackground } from \"@/components/ui/wavy-background\";\r\nimport { motion } from \"framer-motion\";\r\n\r\nexport default function FaceRecognitionLayout({\r\n  children,\r\n}: {\r\n  children: React.ReactNode;\r\n}) {\r\n  return (\r\n    \r\n    \r\n      <section className=\"flex flex-col items-center justify-center gap-4 py-8 md:py-10\">\r\n        <div className=\"h-screen mt-20 py-5  text-center justify-center\">\r\n          {/* Fixed WavyBackground */}\r\n          {children}\r\n        </div>\r\n      </section>\r\n     \r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;AAAA;;AAMe,SAAS,sBAAsB,EAC5C,QAAQ,EAGT;IACC,qBAGI,4TAAC;QAAQ,WAAU;kBACjB,cAAA,4TAAC;YAAI,WAAU;sBAEZ;;;;;;;;;;;AAKX;KAhBwB"}},
-    {"offset": {"line": 32, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}

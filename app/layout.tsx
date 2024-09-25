@@ -42,10 +42,9 @@ export default function RootLayout({
       >
         <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
           <div className="relative items-center flex flex-col h-screen w-full">
-          <NavMenu />
+            <NavMenu />
 
-            <main className="h-screen mt-20  container">
-            {children}</main>
+            <main className="h-screen mt-20  container">{children}</main>
             {/* <footer className="w-full flex items-center justify-center py-3">
               Footer in layout
             </footer> */}

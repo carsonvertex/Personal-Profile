@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 5, "column": 0}, "map": {"version":3,"sources":["/turbopack/[project]/app/contact/layout.tsx"],"sourcesContent":["import { AuroraBackground } from \"@/components/ui/aurora-background\";\r\nimport { motion } from \"framer-motion\";\r\nexport default function ContactLayout({\r\n  children,\r\n}: {\r\n  children: React.ReactNode;\r\n}) {\r\n  return (\r\n    <section className=\"flex flex-col items-center justify-center gap-4 py-8 md:py-10\">\r\n      <div className=\" text-center justify-center\">{children}</div>\r\n    </section>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;;AAEe,SAAS,cAAc,EACpC,QAAQ,EAGT;IACC,qBACE,4TAAC;QAAQ,WAAU;kBACjB,cAAA,4TAAC;YAAI,WAAU;sBAA+B;;;;;;;;;;;AAGpD;KAVwB"}},
-    {"offset": {"line": 31, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}

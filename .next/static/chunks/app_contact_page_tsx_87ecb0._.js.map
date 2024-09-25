@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 5, "column": 0}, "map": {"version":3,"sources":["/turbopack/[project]/app/contact/page.tsx"],"sourcesContent":["\"use client\"\r\nimport { InfiniteMovingCards } from \"@/components/ui/infinite-moving-cards\";\r\nimport React, { useEffect, useState } from \"react\";\r\n\r\nexport default function ContactPage() {\r\n  return (\r\n  \r\n    <div className=\"h-[40rem] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden\">\r\n    <InfiniteMovingCards\r\n      items={testimonials}\r\n      direction=\"right\"\r\n      speed=\"slow\"\r\n    />\r\n  </div>\r\n   \r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;;AAAA;;;AAIe,SAAS;IACtB,qBAEE,4TAAC;QAAI,WAAU;kBACf,cAAA,4TAAC,mJAAA,CAAA,sBAAmB;YAClB,OAAO;YACP,WAAU;YACV,OAAM;;;;;;;;;;;AAKZ;KAZwB"}},
-    {"offset": {"line": 35, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}
